@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Mon Jan 30 15:45:39 2023 as: nmap -sC -sV -oA nmap/pornhub 66.254.114.41
+Host: 66.254.114.41 (reflectededge.reflected.net)	Status: Up
+Host: 66.254.114.41 (reflectededge.reflected.net)	Ports: 80/open/tcp//http//openresty/, 443/open/tcp//ssl|https//openresty/
+# Nmap done at Mon Jan 30 15:46:15 2023 -- 1 IP address (1 host up) scanned in 36.12 seconds

@@ -1,0 +1,204 @@
+# Nmap 7.92 scan initiated Mon Jan 30 15:45:39 2023 as: nmap -sC -sV -oA nmap/pornhub 66.254.114.41
+Nmap scan report for reflectededge.reflected.net (66.254.114.41)
+Host is up (0.019s latency).
+Not shown: 905 filtered tcp ports (no-response), 93 closed tcp ports (reset)
+PORT    STATE SERVICE   VERSION
+80/tcp  open  http      openresty
+|_http-server-header: openresty
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 301 Moved Permanently
+|     server: openresty
+|     date: Mon, 30 Jan 2023 14:42:28 GMT
+|     content-type: text/html
+|     content-length: 166
+|     location: http://www.pornhub.com/
+|     set-cookie: __s=63D7D74E-42FE7229005061F8-166A3485; Secure; Samesite=None
+|     set-cookie: __l=63D7D74E-42FE7229005061F8-166A3485; Secure; Samesite=None; Max-Age=31556926
+|     accept-ch: Sec-CH-UA,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version,Sec-CH-UA-Platform,Sec-CH-UA-Platform-Version
+|     strict-transport-security: max-age=63072000; includeSubDomains; preload
+|     x-request-id: 63D7D74E-42FE7229005061F8-166A3485
+|     connection: close
+|     <html>
+|     <head><title>301 Moved Permanently</title></head>
+|     <body>
+|     <center><h1>301 Moved Permanently</h1></center>
+|     <hr><center>openresty</center>
+|     </body>
+|     </html>
+|   HTTPOptions: 
+|     HTTP/1.1 301 Moved Permanently
+|     server: openresty
+|     date: Mon, 30 Jan 2023 14:42:28 GMT
+|     content-type: text/html
+|     content-length: 166
+|     location: http://www.pornhub.com/
+|     set-cookie: __s=63D7D754-42FE722900501AF6-367F4B59; Secure; Samesite=None
+|     set-cookie: __l=63D7D754-42FE722900501AF6-367F4B59; Secure; Samesite=None; Max-Age=31556926
+|     accept-ch: Sec-CH-UA,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version,Sec-CH-UA-Platform,Sec-CH-UA-Platform-Version
+|     strict-transport-security: max-age=63072000; includeSubDomains; preload
+|     x-request-id: 63D7D754-42FE722900501AF6-367F4B59
+|     connection: close
+|     <html>
+|     <head><title>301 Moved Permanently</title></head>
+|     <body>
+|     <center><h1>301 Moved Permanently</h1></center>
+|     <hr><center>openresty</center>
+|     </body>
+|     </html>
+|   RTSPRequest: 
+|     HTTP/1.1 400 Bad request
+|     Content-length: 90
+|     Cache-Control: no-cache
+|     Connection: close
+|     Content-Type: text/html
+|     <html><body><h1>400 Bad request</h1>
+|     Your browser sent an invalid request.
+|_    </body></html>
+|_http-title: Did not follow redirect to http://www.pornhub.com/
+443/tcp open  ssl/https openresty
+|_http-server-header: openresty
+|_ssl-date: TLS randomness does not represent time
+|_http-title: Did not follow redirect to http://www.pornhub.com/
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 301 Moved Permanently
+|     server: openresty
+|     date: Mon, 30 Jan 2023 14:42:34 GMT
+|     content-type: text/html
+|     content-length: 166
+|     location: http://www.pornhub.com/nice%20ports,/Trinity.txt.bak
+|     set-cookie: __s=63D7D75A-42FE722901BB461D-37AF6551; Secure; Samesite=None
+|     set-cookie: __l=63D7D75A-42FE722901BB461D-37AF6551; Secure; Samesite=None; Max-Age=31556926
+|     accept-ch: Sec-CH-UA,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version,Sec-CH-UA-Platform,Sec-CH-UA-Platform-Version
+|     strict-transport-security: max-age=63072000; includeSubDomains; preload
+|     x-request-id: 63D7D75A-42FE722901BB461D-37AF6551
+|     connection: close
+|     <html>
+|     <head><title>301 Moved Permanently</title></head>
+|     <body>
+|     <center><h1>301 Moved Permanently</h1></center>
+|     <hr><center>openresty</center>
+|     </body>
+|     </html>
+|   GetRequest: 
+|     HTTP/1.1 301 Moved Permanently
+|     server: openresty
+|     date: Mon, 30 Jan 2023 14:42:34 GMT
+|     content-type: text/html
+|     content-length: 166
+|     location: http://www.pornhub.com/
+|     set-cookie: __s=63D7D754-42FE722901BB61F8-166A4D51; Secure; Samesite=None
+|     set-cookie: __l=63D7D754-42FE722901BB61F8-166A4D51; Secure; Samesite=None; Max-Age=31556926
+|     accept-ch: Sec-CH-UA,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version,Sec-CH-UA-Platform,Sec-CH-UA-Platform-Version
+|     strict-transport-security: max-age=63072000; includeSubDomains; preload
+|     x-request-id: 63D7D754-42FE722901BB61F8-166A4D51
+|     connection: close
+|     <html>
+|     <head><title>301 Moved Permanently</title></head>
+|     <body>
+|     <center><h1>301 Moved Permanently</h1></center>
+|     <hr><center>openresty</center>
+|     </body>
+|     </html>
+|   HTTPOptions: 
+|     HTTP/1.1 301 Moved Permanently
+|     server: openresty
+|     date: Mon, 30 Jan 2023 14:42:34 GMT
+|     content-type: text/html
+|     content-length: 166
+|     location: http://www.pornhub.com/
+|     set-cookie: __s=63D7D75A-42FE722901BB2533-379A5F5A; Secure; Samesite=None
+|     set-cookie: __l=63D7D75A-42FE722901BB2533-379A5F5A; Secure; Samesite=None; Max-Age=31556926
+|     accept-ch: Sec-CH-UA,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version,Sec-CH-UA-Platform,Sec-CH-UA-Platform-Version
+|     strict-transport-security: max-age=63072000; includeSubDomains; preload
+|     x-request-id: 63D7D75A-42FE722901BB2533-379A5F5A
+|     connection: close
+|     <html>
+|     <head><title>301 Moved Permanently</title></head>
+|     <body>
+|     <center><h1>301 Moved Permanently</h1></center>
+|     <hr><center>openresty</center>
+|     </body>
+|_    </html>
+| ssl-cert: Subject: commonName=*.pornhub.com/organizationName=MG Freesites Ltd/countryName=CY
+| Subject Alternative Name: DNS:*.pornhub.com, DNS:pornhub.com
+| Not valid before: 2022-02-09T00:00:00
+|_Not valid after:  2023-03-12T23:59:59
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.92%I=7%D=1/30%Time=63D7D81D%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,2F1,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nserver:\x20open
+SF:resty\r\ndate:\x20Mon,\x2030\x20Jan\x202023\x2014:42:28\x20GMT\r\nconte
+SF:nt-type:\x20text/html\r\ncontent-length:\x20166\r\nlocation:\x20http://
+SF:www\.pornhub\.com/\r\nset-cookie:\x20__s=63D7D74E-42FE7229005061F8-166A
+SF:3485;\x20Secure;\x20Samesite=None\r\nset-cookie:\x20__l=63D7D74E-42FE72
+SF:29005061F8-166A3485;\x20Secure;\x20Samesite=None;\x20Max-Age=31556926\r
+SF:\naccept-ch:\x20Sec-CH-UA,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version,Sec-CH-
+SF:UA-Platform,Sec-CH-UA-Platform-Version\r\nstrict-transport-security:\x2
+SF:0max-age=63072000;\x20includeSubDomains;\x20preload\r\nx-request-id:\x2
+SF:063D7D74E-42FE7229005061F8-166A3485\r\nconnection:\x20close\r\n\r\n<htm
+SF:l>\r\n<head><title>301\x20Moved\x20Permanently</title></head>\r\n<body>
+SF:\r\n<center><h1>301\x20Moved\x20Permanently</h1></center>\r\n<hr><cente
+SF:r>openresty</center>\r\n</body>\r\n</html>\r\n")%r(HTTPOptions,2F1,"HTT
+SF:P/1\.1\x20301\x20Moved\x20Permanently\r\nserver:\x20openresty\r\ndate:\
+SF:x20Mon,\x2030\x20Jan\x202023\x2014:42:28\x20GMT\r\ncontent-type:\x20tex
+SF:t/html\r\ncontent-length:\x20166\r\nlocation:\x20http://www\.pornhub\.c
+SF:om/\r\nset-cookie:\x20__s=63D7D754-42FE722900501AF6-367F4B59;\x20Secure
+SF:;\x20Samesite=None\r\nset-cookie:\x20__l=63D7D754-42FE722900501AF6-367F
+SF:4B59;\x20Secure;\x20Samesite=None;\x20Max-Age=31556926\r\naccept-ch:\x2
+SF:0Sec-CH-UA,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version,Sec-CH-UA-Platform,Sec
+SF:-CH-UA-Platform-Version\r\nstrict-transport-security:\x20max-age=630720
+SF:00;\x20includeSubDomains;\x20preload\r\nx-request-id:\x2063D7D754-42FE7
+SF:22900501AF6-367F4B59\r\nconnection:\x20close\r\n\r\n<html>\r\n<head><ti
+SF:tle>301\x20Moved\x20Permanently</title></head>\r\n<body>\r\n<center><h1
+SF:>301\x20Moved\x20Permanently</h1></center>\r\n<hr><center>openresty</ce
+SF:nter>\r\n</body>\r\n</html>\r\n")%r(RTSPRequest,CF,"HTTP/1\.1\x20400\x2
+SF:0Bad\x20request\r\nContent-length:\x2090\r\nCache-Control:\x20no-cache\
+SF:r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\n\r\n<html><bod
+SF:y><h1>400\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20an\x20inva
+SF:lid\x20request\.\n</body></html>\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/30%Time=63D7D823%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,2F1,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nserver:\
+SF:x20openresty\r\ndate:\x20Mon,\x2030\x20Jan\x202023\x2014:42:34\x20GMT\r
+SF:\ncontent-type:\x20text/html\r\ncontent-length:\x20166\r\nlocation:\x20
+SF:http://www\.pornhub\.com/\r\nset-cookie:\x20__s=63D7D754-42FE722901BB61
+SF:F8-166A4D51;\x20Secure;\x20Samesite=None\r\nset-cookie:\x20__l=63D7D754
+SF:-42FE722901BB61F8-166A4D51;\x20Secure;\x20Samesite=None;\x20Max-Age=315
+SF:56926\r\naccept-ch:\x20Sec-CH-UA,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version,
+SF:Sec-CH-UA-Platform,Sec-CH-UA-Platform-Version\r\nstrict-transport-secur
+SF:ity:\x20max-age=63072000;\x20includeSubDomains;\x20preload\r\nx-request
+SF:-id:\x2063D7D754-42FE722901BB61F8-166A4D51\r\nconnection:\x20close\r\n\
+SF:r\n<html>\r\n<head><title>301\x20Moved\x20Permanently</title></head>\r\
+SF:n<body>\r\n<center><h1>301\x20Moved\x20Permanently</h1></center>\r\n<hr
+SF:><center>openresty</center>\r\n</body>\r\n</html>\r\n")%r(HTTPOptions,2
+SF:F1,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nserver:\x20openresty\r\
+SF:ndate:\x20Mon,\x2030\x20Jan\x202023\x2014:42:34\x20GMT\r\ncontent-type:
+SF:\x20text/html\r\ncontent-length:\x20166\r\nlocation:\x20http://www\.por
+SF:nhub\.com/\r\nset-cookie:\x20__s=63D7D75A-42FE722901BB2533-379A5F5A;\x2
+SF:0Secure;\x20Samesite=None\r\nset-cookie:\x20__l=63D7D75A-42FE722901BB25
+SF:33-379A5F5A;\x20Secure;\x20Samesite=None;\x20Max-Age=31556926\r\naccept
+SF:-ch:\x20Sec-CH-UA,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version,Sec-CH-UA-Platf
+SF:orm,Sec-CH-UA-Platform-Version\r\nstrict-transport-security:\x20max-age
+SF:=63072000;\x20includeSubDomains;\x20preload\r\nx-request-id:\x2063D7D75
+SF:A-42FE722901BB2533-379A5F5A\r\nconnection:\x20close\r\n\r\n<html>\r\n<h
+SF:ead><title>301\x20Moved\x20Permanently</title></head>\r\n<body>\r\n<cen
+SF:ter><h1>301\x20Moved\x20Permanently</h1></center>\r\n<hr><center>openre
+SF:sty</center>\r\n</body>\r\n</html>\r\n")%r(FourOhFourRequest,30E,"HTTP/
+SF:1\.1\x20301\x20Moved\x20Permanently\r\nserver:\x20openresty\r\ndate:\x2
+SF:0Mon,\x2030\x20Jan\x202023\x2014:42:34\x20GMT\r\ncontent-type:\x20text/
+SF:html\r\ncontent-length:\x20166\r\nlocation:\x20http://www\.pornhub\.com
+SF:/nice%20ports,/Trinity\.txt\.bak\r\nset-cookie:\x20__s=63D7D75A-42FE722
+SF:901BB461D-37AF6551;\x20Secure;\x20Samesite=None\r\nset-cookie:\x20__l=6
+SF:3D7D75A-42FE722901BB461D-37AF6551;\x20Secure;\x20Samesite=None;\x20Max-
+SF:Age=31556926\r\naccept-ch:\x20Sec-CH-UA,Sec-CH-UA-Arch,Sec-CH-UA-Full-V
+SF:ersion,Sec-CH-UA-Platform,Sec-CH-UA-Platform-Version\r\nstrict-transpor
+SF:t-security:\x20max-age=63072000;\x20includeSubDomains;\x20preload\r\nx-
+SF:request-id:\x2063D7D75A-42FE722901BB461D-37AF6551\r\nconnection:\x20clo
+SF:se\r\n\r\n<html>\r\n<head><title>301\x20Moved\x20Permanently</title></h
+SF:ead>\r\n<body>\r\n<center><h1>301\x20Moved\x20Permanently</h1></center>
+SF:\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jan 30 15:46:15 2023 -- 1 IP address (1 host up) scanned in 36.12 seconds
